@@ -1,0 +1,308 @@
+/* 
+.navbar {
+    background-color: #14b853; 
+    padding: 0.5rem 1rem; 
+}
+
+
+.navbar-brand {
+    color: #4097ad !important; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #529bad; 
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #3498db; 
+    background-color: rgba(42, 121, 174, 0.1); 
+    border-radius: 5px; 
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #3498db !important;
+    font-weight: bold;
+}
+
+
+.navbar-toggler {
+    border-color: #ecf0f1; 
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+.navbar .btn-outline-primary {
+    color: #ecf0f1; 
+    border-color: #ecf0f1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.navbar .btn-outline-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #a5b7c8;
+}
+
+
+.navbar .btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    color: rgb(199, 214, 223);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.navbar .btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+
+.navbar .badge {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+} */
+.navbg {
+    background-color: #2C3E50;
+    position: relative;
+    overflow: visible;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .content{
+    width : 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    
+  }
+
+  .details{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+  }
+  .d{
+    padding: 10px;
+    border: 2px solid;
+  }
+
+  @media (max-width: 768px) {
+    .content, .details {
+        width: 80%;
+    }
+
+    .navbar {
+        padding: 10px; 
+    }
+
+    .d {
+        padding: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .content, .details {
+        width: 100%; 
+    }
+
+    .navbar {
+        padding: 8px; 
+    }
+
+    .d {
+        padding: 20px; 
+    }
+}
+
+.btn-warning{
+    background-color: #008080;
+    color: #fff;
+}
+
+.info{
+    background-color: #a9cce3;
+
+}
+.btn-pink{
+    background-color: #edbb99;
+}
+
+.btn but{
+    background-color: #ea96f5 ;
+}
+
+.btn-second{
+    background-color: #f2d7d5;
+    border-color: #aeacac;
+}
+
+.btn-secon{
+    background-color: #d4efdf;
+    border-color: #c2c6c4;
+}
+
+.btn-success{
+    background-color: #48c9b0;
+}
+
+.btn-blue{
+    background-color: #2e86c1;
+}
+
+.btn-orange{
+    background-color: orange;
+    /* color: #fff; */
+}
+
+.btn-silver{
+    background-color: #57f3e9;
+}
+
+.btn-hover{
+    background-color: #f95605;
+    color: #fff;
+}
+.h:hover{
+
+}
+
+
+/*oderstable*/
+/* Add these styles to your existing nav.css file */
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.order-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.order-info p {
+    margin-bottom: 0.5rem;
+}
+
+.order-info p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-items {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.timeline-item {
+    padding: 0.5rem 0;
+}
+
+.timeline-item hr {
+    margin: 0.75rem 0;
+    border-color: #dee2e6;
+}
+
+/* Table Styles */
+.table-responsive {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Button Styles */
+.btn-silver {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #2c3e50;
+}
+
+.btn-silver:hover {
+    background-color: #e9ecef;
+}
+
+.btn-orange {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #c0392b;
+}
+
+/* Modal Footer */
+.modal-footer {
+    border-top: 1px solid #eee;
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0 0 12px 12px;
+}
+/*oderstable*/
